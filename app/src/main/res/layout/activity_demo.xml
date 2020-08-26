@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="竖屏播放"/>
+    <Button
+        android:id="@+id/btn_play_in_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="视频列表"/>
+    <Button
+        android:id="@+id/btn_play_in_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="在Fragment中播放"/>
+    <Button
+    android:id="@+id/btn_play_in_fragment_compat_home"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:text="在Fragment中播放,处理按下Home键"/>
+    <Button
+        android:id="@+id/btn_play_in_activity_compat_home"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="在activity中播放,处理按下Home键"/>
+</LinearLayout>
