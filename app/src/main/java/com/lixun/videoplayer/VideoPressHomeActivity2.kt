@@ -1,8 +1,8 @@
-package com.example.android.play
+package com.lixun.videoplayer
+
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.android.mediarecorder.R
 import com.lib.videoplayer.video.VideoPlayerManager
 
 class VideoPressHomeActivity2 : AppCompatActivity() {

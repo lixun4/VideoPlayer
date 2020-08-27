@@ -1,4 +1,5 @@
-package com.example.android.play
+package com.lixun.videoplayer
+
 
 import android.content.Context
 import android.content.Intent
@@ -11,7 +12,6 @@ import com.bumptech.glide.load.DataSource
 import com.bumptech.glide.load.engine.GlideException
 import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.target.Target
-import com.lib.videoplayer.R
 import com.lib.videoplayer.base.CompatHomeKeyActivity
 import com.lib.videoplayer.bean.VideoInfo
 import com.lib.videoplayer.video.TxVideoPlayerController

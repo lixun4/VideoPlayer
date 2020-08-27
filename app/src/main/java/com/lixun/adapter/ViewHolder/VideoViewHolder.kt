@@ -10,11 +10,10 @@ import com.bumptech.glide.load.DataSource
 import com.bumptech.glide.load.engine.GlideException
 import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.target.Target
-import com.example.android.mediarecorder.R
 import com.lib.videoplayer.bean.VideoInfo
-import com.lib.videoplayer.util.Util
 import com.lib.videoplayer.video.TxVideoPlayerController
 import com.lib.videoplayer.video.VideoPlayer
+import com.lixun.videoplayer.R
 
 class VideoViewHolder: RecyclerView.ViewHolder{
     var playerController:TxVideoPlayerController?=null

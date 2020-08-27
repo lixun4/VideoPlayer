@@ -5,9 +5,9 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.android.adapter.ViewHolder.VideoViewHolder
-import com.example.android.mediarecorder.R
 import com.lib.videoplayer.bean.VideoInfo
 import com.lib.videoplayer.video.TxVideoPlayerController
+import com.lixun.videoplayer.R
 
 class VideoAdapter(context: Context, var data: MutableList<VideoInfo>): RecyclerView.Adapter<VideoViewHolder>() {
      var videoInfoList:MutableList<VideoInfo>?=null

@@ -1,4 +1,4 @@
-package com.example.android.play
+package com.lixun.videoplayer
 
 
 import android.os.Bundle
@@ -11,8 +11,6 @@ import androidx.recyclerview.widget.RecyclerView
 
 import com.example.android.adapter.VideoAdapter
 import com.example.android.adapter.ViewHolder.VideoViewHolder
-import com.example.android.mediarecorder.R
-import com.lib.videoplayer.base.BaseVideoFragment
 import com.lib.videoplayer.base.CompatHomeKeyFragment
 import com.lib.videoplayer.bean.VideoInfo
 import com.lib.videoplayer.video.VideoPlayerManager

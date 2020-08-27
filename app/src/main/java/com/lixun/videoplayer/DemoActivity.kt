@@ -1,10 +1,9 @@
-package com.example.android.play
+package com.lixun.videoplayer
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import com.example.android.mediarecorder.R
 import com.lib.videoplayer.bean.VideoInfo
 import kotlinx.android.synthetic.main.activity_demo.*
 
@@ -35,7 +34,7 @@ class DemoActivity : AppCompatActivity(), View.OnClickListener {
                VideoActivity.intentTo(this,videoInfo)
            }
            btn_play_in_recyclerView->{
-                  var intent=Intent(this,RecyclerViewActivity::class.java)
+                  var intent=Intent(this, RecyclerViewActivity::class.java)
                startActivity(intent)
            }
            btn_play_in_fragment->{
