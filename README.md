@@ -1,6 +1,6 @@
 # VieoPlayer
-### 重要说明，此库决大部分代码来源于https://github.com/xiaoyanger0825/NiceVieoPlayer.git，特此感谢该库的作者。
-### 本人只是在这个库的基础上添加了支持https播放的so文件及满足自己项目需求的一些修改
+### 重要说明，此库决大部分代码来源于https://github.com/xiaoyanger0825/NiceVieoPlayer.git
+### 特此感谢该库的作者。本人只是在这个库的基础上添加了支持https播放的so文件及满足自己项目需求的一些修改
 
 ### Features
 
